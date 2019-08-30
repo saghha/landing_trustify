@@ -46,50 +46,21 @@
                     
                     <div class="navbar-collapse justify-content-end collapse" id="navbar-collapse-toggle">
                         <ul class="navbar-nav m-auto align-items-lg-center">
-                            <li class="mm-in simple-dropdown">
+                            <li>
                                 <a class="nav-link" href="#home">Home</a>
-                                <i class="fa fa-angle-down m-dropdown-toggle"></i>
-                                <ul class="m-dropdown-menu">
-                                    <li><a href="index.html">Home Option 1</a></li>
-                                    <li><a href="index-01.html">Home Option 2</a></li>
-                                    <li><a href="index-02.html">Home Option 3</a></li>
-                                    <li><a href="index-03.html">Home Option 4</a></li>
-                                    <li><a href="index-04.html">Home Option 5</a></li>
-                                    <li><a href="index-05.html">Home Option 6</a></li>
-                                    <li><a href="index-06.html">Home Option 7</a></li>
-                                    <li><a href="index-07.html">Home Option 8</a></li>
-                                    <li><a href="index-08.html">Home Option 9</a></li>
-                                    <li><a href="index-09.html">Home Option 10</a></li>
-                                </ul>
                             </li>
                             <li><a class="nav-link" href="#about">About</a></li>
-                            <li><a class="nav-link" href="#feature">Features</a></li>
-                            <li><a class="nav-link" href="#team">Team</a></li>
-                            <li><a class="nav-link" href="#price">Price</a></li>
-                            <li><a class="nav-link" href="#blog">Blog</a></li>
-                            <li><a class="nav-link" href="#contact">Contact Us</a></li>
-                            <li class="mm-in simple-dropdown">
-                                <a class="nav-link" href="#">Pages</a>
-                                <i class="fa fa-angle-down m-dropdown-toggle"></i>
-                                <ul class="m-dropdown-menu">
-                                    <li><a href="about-us.html">About Us</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="portfolio.html">Portfolio</a></li>
-                                    <li><a href="team.html">Our Team</a></li>
-                                    <li><a href="price.html">Our Price</a></li>
-                                    <li><a href="faq.html">Faq</a></li>
-                                    <li><a href="policy.html">Privacy policy</a></li>
-                                    <li><a href="contact.html">Contact Us</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="blog-details.html">Single Blog</a></li>
-                                    <li><a href="404-page.html">404 Page</a></li>
-                                </ul>
-                            </li>
+                            <li><a class="nav-link" href="#feature">Choose Us</a></li>
+                            <li><a class="nav-link" href="#team">Features</a></li>
                         </ul>
+                        <select class="selectpicker" data-width="fit">
+                            <option data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+                          <option  data-content='<span class="flag-icon flag-icon-mx"></span> Español'>Español</option>
+                        </select>
                     </div>
                     <div class="extra-menu d-flex align-items-center">
                         <div class="d-none d-md-inline-block">
-                            <a class="m-btn m-btn-md m-btn-theme2nd m-btn-round m-btn-shadow"id="btn" href="#">Free Try</a>
+                            <a class="m-btn m-btn-md m-btn-theme2nd m-btn-round m-btn-shadow"id="btn-demo" href="#">Free Try</a>
                         </div>
                         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-collapse-toggle" aria-expanded="false">
                             <span class="icon-bar"></span>
@@ -116,21 +87,15 @@
                 <div class="row full-screen sm-full-screen-auto align-items-center justify-content-center">
                     <div class="col-12 col-lg-5 col-xl-4">
                         <div class="md-p-100px-t md-m-40px-t sm-m-20px-t md-p-30px-b sm-p-50px-b">
-                            <h3 class="white-color font-w-600 font-44px md-font-38px sm-font-28px m-15px-b">Our Analysis is your financial results</h3>
-                            <p class="white-color-light font-16px sm-font-15px m-0px">Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative multipurpose design you can use it as a startups.</p>
+                            <h3 id="slogan" class="white-color font-w-600 font-44px md-font-38px sm-font-28px m-15px-b">Our Analysis is your financial results</h3>
+                            <p id="description" class="white-color-light font-16px sm-font-15px m-0px">Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative multipurpose design you can use it as a startups.</p>
                             <div class="banner-subscribe p-25px-t">
-                                <form>
-                                    <div class="input-group">
-                                        <input type="email" class="form-control" placeholder="Enter your email">
-                                        <button class="m-btn m-btn-theme2nd">Get started</button>
-                                    </div>
-                                    <span class="help-text">14-day FREE trial - no credit card needed</span>
-                                </form>
+                                <button type="button" id="seeMore" class="m-btn m-btn-round m-btn-shadow m-btn-theme2nd">See More</button>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-7 col-xl-8">
-                        <img class="max-width-auto" src="static/img/1200x800.jpg" title="" alt="">
+                        <!-- <img class="max-width-auto" src="static/img/1200x800.jpg" title="" alt=""> -->
                     </div>
                 </div>
                 <!-- end row -->
@@ -138,82 +103,58 @@
             <!-- end container -->
         </section>
         <!-- end home banner -->
-        <!--  about us -->
         <section id="about" class="section gray-bg">
+            <!-- effect -->
+            <div class="effect effect-middle gray-bg"></div>
+            <!-- end effect -->
             <div class="container">
-                <!-- section title -->
-                <div class="row justify-content-center m-45px-b sm-m-25px-b">
-                    <div class="col-lg-8">
-                        <div class="section-title text-center">
-                            <h2 class="dark-color font-w-600 m-20px-b p-20px-b theme-after after-50px font-40px md-font-38px sm-font-28px">Effective tools for busy Administrators</h2>
-                            <p class="font-16px m-0px">Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative multipurpose design.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- end section title -->
-                <div class="row">
-                    <!-- features box -->
-                    <div class="col-md-6 col-lg-3 m-15px-tb">
-                        <div class="feature-box hover-top box-shadow transition white-bg border-radius-5">
-                            <div class="icon">
-                                <i class="icon-desktop"></i>
-                                <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
-                            </div>
-                            <div class="feature-content">
-                                <h5>Web Development</h5>
-                                <p>Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- features box end -->
-                    <!-- features box -->
-                    <div class="col-md-6 col-lg-3 m-15px-tb">
-                        <div class="feature-box hover-top box-shadow transition white-bg border-radius-5">
-                            <div class="icon">
+                <!-- features box -->
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="sm-p-0px-r md-p-30px-r p-70px-r md-m-30px-b">
+                            <div class="f-icon-80px text-center font-30px border-all-1 border-color-theme border-radius-3 theme-color gray-bg m-25px-b">
                                 <i class="icon-tools"></i>
                                 <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
                             </div>
-                            <div class="feature-content">
-                                <h5>Logo &amp; Identity</h5>
-                                <p>Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative.</p>
+                            <h2 class="dark-color font-w-600 font-32px md-font-30px sm-font-28px m-20px-b">Make smarter business decisions with data analysis</h2>
+                            <p class="m-0px">Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative multipurpose design you can use it as a startups. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="btn-bar p-25px-t">
+                                <a class="popup-youtube m-btn m-btn-theme m-btn-radius" href="#">Lear More</a>
                             </div>
                         </div>
                     </div>
-                    <!-- features box end -->
-                    <!-- features box -->
-                    <div class="col-md-6 col-lg-3 m-15px-tb">
-                        <div class="feature-box hover-top box-shadow transition white-bg border-radius-5">
-                            <div class="icon">
+                    <div class="col-lg-6">
+                        <img src="static/img/1200x800.jpg" title="" alt="">
+                    </div>
+                </div>
+                <!-- end features box -->
+                <div class="m-80px-tb">
+                    <hr>
+                </div>
+                <!--features box -->
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-first order-2">
+                        <img src="static/img/1200x800.jpg" title="" alt="">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="sm-p-0px-l md-p-30px-l p-70px-l text-lg-right md-m-30px-b">
+                            <div class="f-icon-80px text-center font-30px border-all-1 border-color-theme border-radius-3 theme-color gray-bg m-25px-b">
                                 <i class="icon-hotairballoon"></i>
                                 <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
                             </div>
-                            <div class="feature-content">
-                                <h5>Graphics Design</h5>
-                                <p>Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative.</p>
+                            <h2 class="dark-color font-w-600 font-32px md-font-30px sm-font-28px m-20px-b">Make smarter business decisions with data analysis</h2>
+                            <p class="m-0px">Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative multipurpose design you can use it as a startups. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <div class="btn-bar p-25px-t">
+                                <a class="popup-youtube m-btn m-btn-theme m-btn-radius" href="#">Lear More</a>
                             </div>
                         </div>
                     </div>
-                    <!-- features box end -->
-                    <!-- features box -->
-                    <div class="col-md-6 col-lg-3 m-15px-tb">
-                        <div class="feature-box hover-top box-shadow transition white-bg border-radius-5">
-                            <div class="icon">
-                                <i class="icon-scissors"></i>
-                                <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
-                            </div>
-                            <div class="feature-content">
-                                <h5>Social Marketing</h5>
-                                <p>Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- features box end -->
                 </div>
+                <!-- end features box -->
             </div>
         </section>
-        <!--  end about us -->
         <!--  features tabs -->
-        <section class="section">
+        <section id="chooseUs" class="section">
             <div class="container">
                 <!-- section title -->
                 <div class="row justify-content-center sm-m-25px-b m-45px-b">
@@ -387,230 +328,72 @@
             </div>
         </section>
         <!--  end features tabs -->
-        <!--  feature box -->
-        <section id="feature" class="section theme-bg">
-            <div class="container">
-                <!--section title -->
-                <div class="row justify-content-center sm-m-25px-b m-45px-b">
-                    <div class="col-lg-8 col-md-10">
-                        <div class="section-title text-center">
-                            <h2 class="white-color font-w-600 m-20px-b p-20px-b white-after after-50px font-40px md-font-38px sm-font-28px">You deserve all time best</h2>
-                            <p class="font-16px m-0px white-color-light">Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative multipurpose design you can use it as a startups.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--end section title -->
-                <div class="row">
-                    <!-- features box -->
-                    <div class="col-md-6 m-15px-tb">
-                        <div class="flex-left-icon white-bg p-40px-tb p-20px-lr d-flex box-shadow transition hover-top border-radius-5">
-                            <div class="f-icon-80px border-radius-50 gray-bg theme-color font-35px text-center">
-                                <i class="icon-desktop"></i>
-                                <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
-                            </div>
-                            <div class="p-20px-l">
-                                <h5 class="font-16px dark-color m-10px-b font-w-600">Web Development</h5>
-                                <p class="m-0px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end features box -->
-                    <!-- features box -->
-                    <div class="col-md-6 m-15px-tb">
-                        <div class="flex-left-icon white-bg p-40px-tb p-20px-lr d-flex box-shadow transition hover-top border-radius-5">
-                            <div class="f-icon-80px border-radius-50 gray-bg theme-color font-35px text-center">
-                                <i class="icon-tools"></i>
-                                <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
-                            </div>
-                            <div class="p-20px-l">
-                                <h5 class="font-16px dark-color m-10px-b font-w-600">Logo &amp; Identity</h5>
-                                <p class="m-0px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end features box -->
-                    <!-- features box -->
-                    <div class="col-md-6 m-15px-tb">
-                        <div class="flex-left-icon white-bg p-40px-tb p-20px-lr d-flex box-shadow transition hover-top border-radius-5">
-                            <div class="f-icon-80px border-radius-50 gray-bg theme-color font-35px text-center">
-                                <i class="icon-hotairballoon"></i>
-                                <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
-                            </div>
-                            <div class="p-20px-l">
-                                <h5 class="font-16px dark-color m-10px-b font-w-600">Graphics Design</h5>
-                                <p class="m-0px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end features box -->
-                    <!-- features box -->
-                    <div class="col-md-6 m-15px-tb">
-                        <div class="flex-left-icon white-bg p-40px-tb p-20px-lr d-flex box-shadow transition hover-top border-radius-5">
-                            <div class="f-icon-80px border-radius-50 gray-bg theme-color font-35px text-center">
-                                <i class="icon-scissors"></i>
-                                <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
-                            </div>
-                            <div class="p-20px-l">
-                                <h5 class="font-16px dark-color m-10px-b font-w-600">Social Marketing</h5>
-                                <p class="m-0px">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end features box -->
-                </div>
-            </div>
-        </section>
-        <!--  end feature box -->
-        <!--  features row -->
-        <section class="section effect-section">
-            <!-- effect -->
-            <div class="effect effect-middle gray-bg"></div>
-            <!-- end effect -->
-            <div class="container">
-                <!-- features box -->
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="sm-p-0px-r md-p-30px-r p-70px-r md-m-30px-b">
-                            <div class="f-icon-80px text-center font-30px border-all-1 border-color-theme border-radius-3 theme-color gray-bg m-25px-b">
-                                <i class="icon-tools"></i>
-                                <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
-                            </div>
-                            <h2 class="dark-color font-w-600 font-32px md-font-30px sm-font-28px m-20px-b">Make smarter business decisions with data analysis</h2>
-                            <p class="m-0px">Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative multipurpose design you can use it as a startups. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <div class="btn-bar p-25px-t">
-                                <a class="popup-youtube m-btn m-btn-theme m-btn-radius" href="#">Lear More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="static/img/1200x800.jpg" title="" alt="">
-                    </div>
-                </div>
-                <!-- end features box -->
-                <div class="m-80px-tb">
-                    <hr>
-                </div>
-                <!--features box -->
-                <div class="row align-items-center">
-                    <div class="col-lg-6 order-lg-first order-2">
-                        <img src="static/img/1200x800.jpg" title="" alt="">
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="sm-p-0px-l md-p-30px-l p-70px-l text-lg-right md-m-30px-b">
-                            <div class="f-icon-80px text-center font-30px border-all-1 border-color-theme border-radius-3 theme-color gray-bg m-25px-b">
-                                <i class="icon-hotairballoon"></i>
-                                <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
-                            </div>
-                            <h2 class="dark-color font-w-600 font-32px md-font-30px sm-font-28px m-20px-b">Make smarter business decisions with data analysis</h2>
-                            <p class="m-0px">Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative multipurpose design you can use it as a startups. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                            <div class="btn-bar p-25px-t">
-                                <a class="popup-youtube m-btn m-btn-theme m-btn-radius" href="#">Lear More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end features box -->
-            </div>
-        </section>
-        <!--  end features row -->
-        <!--  solutions -->
-        <section class="section theme-bg">
+        <!--  about us -->
+        <section id="technologies" class="section gray-bg">
             <div class="container">
                 <!-- section title -->
-                <div class="row justify-content-center sm-m-25px-b m-45px-b">
-                    <div class="col-lg-8 col-md-10">
+                <div class="row justify-content-center m-45px-b sm-m-25px-b">
+                    <div class="col-lg-8">
                         <div class="section-title text-center">
-                            <h2 class="white-color font-w-600 m-20px-b p-20px-b white-after after-50px font-40px md-font-38px sm-font-28px">Solutions We Provide</h2>
-                            <p class="font-16px m-0px white-color-light">Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative multipurpose design you can use it as a startups.</p>
+                            <h2 class="dark-color font-w-600 m-20px-b p-20px-b theme-after after-50px font-40px md-font-38px sm-font-28px">Effective tools for busy Administrators</h2>
+                            <p class="font-16px m-0px">Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative multipurpose design.</p>
                         </div>
                     </div>
                 </div>
                 <!-- end section title -->
                 <div class="row">
                     <!-- features box -->
-                    <div class="col-lg-3 col-sm-6 m-15px-tb">
-                        <div class="feature-box-02">
-                            <a class="overlay-link" href="#"></a>
-                            <div class="icon"></div>
+                    <div class="col-md-6 col-lg-3 m-15px-tb">
+                        <div class="feature-box hover-top box-shadow transition white-bg border-radius-5">
+                            <div class="icon">
+                                <i class="icon-desktop"></i>
+                                <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
+                            </div>
                             <div class="feature-content">
-                                <h5>Unique design</h5>
+                                <h5>Web Development</h5>
+                                <p>Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative.</p>
                             </div>
                         </div>
                     </div>
                     <!-- features box end -->
                     <!-- features box -->
-                    <div class="col-lg-3 col-sm-6 m-15px-tb">
-                        <div class="feature-box-02">
-                            <a class="overlay-link" href="#"></a>
-                            <div class="icon"></div>
+                    <div class="col-md-6 col-lg-3 m-15px-tb">
+                        <div class="feature-box hover-top box-shadow transition white-bg border-radius-5">
+                            <div class="icon">
+                                <i class="icon-tools"></i>
+                                <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
+                            </div>
                             <div class="feature-content">
-                                <h5>Different Layout</h5>
+                                <h5>Logo &amp; Identity</h5>
+                                <p>Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative.</p>
                             </div>
                         </div>
                     </div>
                     <!-- features box end -->
                     <!-- features box -->
-                    <div class="col-lg-3 col-sm-6 m-15px-tb">
-                        <div class="feature-box-02">
-                            <a class="overlay-link" href="#"></a>
-                            <div class="icon"></div>
+                    <div class="col-md-6 col-lg-3 m-15px-tb">
+                        <div class="feature-box hover-top box-shadow transition white-bg border-radius-5">
+                            <div class="icon">
+                                <i class="icon-hotairballoon"></i>
+                                <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
+                            </div>
                             <div class="feature-content">
-                                <h5>Make it Simple</h5>
+                                <h5>Graphics Design</h5>
+                                <p>Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative.</p>
                             </div>
                         </div>
                     </div>
                     <!-- features box end -->
                     <!-- features box -->
-                    <div class="col-lg-3 col-sm-6 m-15px-tb">
-                        <div class="feature-box-02">
-                            <a class="overlay-link" href="#"></a>
-                            <div class="icon"></div>
-                            <div class="feature-content">
-                                <h5>Responsiveness</h5>
+                    <div class="col-md-6 col-lg-3 m-15px-tb">
+                        <div class="feature-box hover-top box-shadow transition white-bg border-radius-5">
+                            <div class="icon">
+                                <i class="icon-scissors"></i>
+                                <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
                             </div>
-                        </div>
-                    </div>
-                    <!-- features box end -->
-                    <!-- features box -->
-                    <div class="col-lg-3 col-sm-6 m-15px-tb">
-                        <div class="feature-box-02">
-                            <a class="overlay-link" href="#"></a>
-                            <div class="icon"></div>
                             <div class="feature-content">
-                                <h5>Perfection</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- features box end -->
-                    <!-- features box -->
-                    <div class="col-lg-3 col-sm-6 m-15px-tb">
-                        <div class="feature-box-02">
-                            <a class="overlay-link" href="#"></a>
-                            <div class="icon"></div>
-                            <div class="feature-content">
-                                <h5>Advanced</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- features box end -->
-                    <!-- features box -->
-                    <div class="col-lg-3 col-sm-6 m-15px-tb">
-                        <div class="feature-box-02">
-                            <a class="overlay-link" href="#"></a>
-                            <div class="icon"></div>
-                            <div class="feature-content">
-                                <h5>Unique Design</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- features box end -->
-                    <!-- features box -->
-                    <div class="col-lg-3 col-sm-6 m-15px-tb">
-                        <div class="feature-box-02">
-                            <a class="overlay-link" href="#"></a>
-                            <div class="icon"></div>
-                            <div class="feature-content">
-                                <h5>Different Layout</h5>
+                                <h5>Social Marketing</h5>
+                                <p>Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative.</p>
                             </div>
                         </div>
                     </div>
@@ -618,10 +401,9 @@
                 </div>
             </div>
         </section>
-        <!--  end solutions -->
-        
+        <!--  end about us -->        
         <!--  contact info -->
-        <section id="contact" class="section bg-cover" style="background-image: url(static/img/1200x800.jpg);">
+        <section id="contact" class="section bg-cover bg-fixed bg-no-repeat" style="background-image: url(static/img/1200x800.jpg);">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <!-- section title -->
@@ -748,6 +530,7 @@
     <script src="static/plugin/bootstrap/js/bootstrap.js"></script>
     <script src="static/js/jquery.i18n.js"></script>
     <script src="static/js/translate.js"></script>
+    <script src="static/js/main.js"></script>
     <!--end bootstrap-->
     <!-- End -->
     <!-- custom js -->
