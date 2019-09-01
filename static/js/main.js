@@ -4,3 +4,4 @@ $("#seeMore").click(function() {
     }, 2000);
 });
 $('.selectpicker').selectpicker();
+

@@ -1,11 +1,19 @@
 var en = {
-    "title": "Our Analysis is your financial results",
-    "subtitle": "Mombo is a HTML5 template based on Sass and Bootstrap 4 with modern and creative multipurpose design you can use it as a startups.",
+    "title": "Trustify",
+    "subtitle": "Manage, emit, sign and certify any step across business process.",
+    "productTitle1": "The very first decentralized CA, fully integrated to your own business process",
+    "productDescription1": "Create, manage, edit documents of facts involved across your own business process. Using the Ethereum Main Network, you can cartifu every significant step, across his entire cycle. Let's minimize the posibility on your business process!",
+    "productTitle2": "The Decentralized Custody service platform is here!",
+    "productDescription2": "We provide a fault tolerance service storage, securely indexed by the power of Ethereum Main Network.",
     "button": "Free try"
 }
 var es = {
-    "title": "Nuestro Análisis es tu resultado financiero",
-    "subtitle": "Mombo es una plantilla HTML5 basado en Sass y Bootstrap 4 con un diseño multipropósito moderno y creativo que puedes usar para tu startups.",
+    "title": "Trustify",
+    "subtitle": "Manage, emit, sign and certify any step across business process.",
+    "productTitle1": "The very first decentralized CA, fully integrated to your own business process",
+    "productDescription1": "Create, manage, edit documents of facts involved across your own business process. Using the Ethereum Main Network, you can cartifu every significant step, across his entire cycle. Let's minimize the posibility on your business process!",
+    "productTitle2": "The Decentralized Custody service platform is here!",
+    "productDescription2": "We provide a fault tolerance service storage, securely indexed by the power of Ethereum Main Network.",
     "button": "prueba gratis"
 }
 var currentLanguage = "en"
@@ -31,4 +39,8 @@ function loadTranslates(){
     $('#btn-demo')._t("button")
     $('#slogan')._t("title");
     $('#description')._t('subtitle')
+    $('#productTitle1')._t('productTitle1')
+    $('#productDescription1')._t('productDescription1')
+    $('#productTitle2')._t('productTitle1')
+    $('#productDescription2')._t('productDescription1')
 }
