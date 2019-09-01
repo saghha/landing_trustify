@@ -41,6 +41,6 @@ function loadTranslates(){
     $('#description')._t('subtitle')
     $('#productTitle1')._t('productTitle1')
     $('#productDescription1')._t('productDescription1')
-    $('#productTitle2')._t('productTitle1')
-    $('#productDescription2')._t('productDescription1')
+    $('#productTitle2')._t('productTitle2')
+    $('#productDescription2')._t('productDescription2')
 }
