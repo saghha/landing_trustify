@@ -1,19 +1,19 @@
 var en = {
     "title": "Trustify",
     "subtitle": "Manage, emit, sign and certify any step across business process.",
-    "productTitle1": "The very first decentralized CA, fully integrated to your own business process",
-    "productDescription1": "Create, manage, edit documents of facts involved across your own business process. Using the Ethereum Main Network, you can cartifu every significant step, across his entire cycle. Let's minimize the posibility on your business process!",
+    "productTitle1": "The very first decentralized CA, fully integrated to your own business processes",
+    "productDescription1": "Create, manage, edit documents of facts involved across your own business process. Using the Ethereum Main Network, you can certify every significant step, across his entire cycle. Let's avoid any issues on your business processes!",
     "productTitle2": "The Decentralized Custody service platform is here!",
-    "productDescription2": "We provide a fault tolerance service storage, securely indexed by the power of Ethereum Main Network.",
+    "productDescription2": "We provide a fault tolerance service storage, securely indexed and fully replicated by the power of Ethereum Main Network.",
     "button": "Free try"
 }
 var es = {
     "title": "Trustify",
     "subtitle": "Manage, emit, sign and certify any step across business process.",
-    "productTitle1": "The very first decentralized CA, fully integrated to your own business process",
-    "productDescription1": "Create, manage, edit documents of facts involved across your own business process. Using the Ethereum Main Network, you can cartifu every significant step, across his entire cycle. Let's minimize the posibility on your business process!",
+    "productTitle1": "The very first decentralized CA, fully integrated to your own business processes",
+    "productDescription1": "Create, manage, edit documents of facts involved across your own business process. Using the Ethereum Main Network, you can certify every significant step, across his entire cycle. Let's avoid any issues on your business processes!",
     "productTitle2": "The Decentralized Custody service platform is here!",
-    "productDescription2": "We provide a fault tolerance service storage, securely indexed by the power of Ethereum Main Network.",
+    "productDescription2": "We provide a fault tolerance service storage, securely indexed and fully replicated by the power of Ethereum Main Network.",
     "button": "prueba gratis"
 }
 var currentLanguage = "en"
